@@ -341,4 +341,32 @@ Text Label 5000 3150 0    60   ~ 0
 Collector
 Text Label 5000 3800 0    60   ~ 0
 Emitter
+$Comp
+L CONN_01X01 TP2
+U 1 1 55FC3DC4
+P 6150 2100
+F 0 "TP2" H 6150 2200 50  0000 C CNN
+F 1 "CONN_01X01" V 6250 2100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6150 2100 60  0001 C CNN
+F 3 "" H 6150 2100 60  0000 C CNN
+	1    6150 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 2400 6150 2300
+Connection ~ 6150 2400
+$Comp
+L CONN_01X01 TP1
+U 1 1 55FC3FCE
+P 2950 3150
+F 0 "TP1" H 2950 3250 50  0000 C CNN
+F 1 "CONN_01X01" V 3050 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 2950 3150 60  0001 C CNN
+F 3 "" H 2950 3150 60  0000 C CNN
+	1    2950 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3350 2950 3500
+Connection ~ 2950 3500
 $EndSCHEMATC
