@@ -1,4 +1,4 @@
-update=Sat 06 Feb 2016 11:53:17 AM CET
+update=Mon 08 Feb 2016 09:38:43 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=lib/LoudMouth-ClassD
+[general]
+version=1
