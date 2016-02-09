@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP1117E50G-13
+D MCP1703T-5002E, Fixed 1A Dropout Positive Adjustable or Fixed-Mode Regulator, Positive
+K REGULATOR LDO
+F http://www.diodes.com/_files/datasheets/AP1117.pdf
+$ENDCMP
+#
 $CMP MCP1703T-5002E
 D MCP1703T-5002E, Fixed 250mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
