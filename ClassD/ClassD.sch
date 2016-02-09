@@ -523,7 +523,7 @@ F 3 "" H 9100 3700 50  0000 C CNN
 F 4 "CP-1402-ND" H 9100 3700 60  0001 C CNN "DigiKeyPN"
 F 5 "Value" H 9100 3700 60  0001 C CNN "Voltage"
 F 6 "Value" H 9100 3700 60  0001 C CNN "ConradPN"
-F 7 "Value" H 9100 3700 60  0001 C CNN "Fieldname"
+F 7 "http://www.digikey.de/product-detail/de/AS07108PO-R/668-1371-ND/1745572" H 9100 3700 60  0001 C CNN "Link"
 	1    9100 3700
 	1    0    0    -1  
 $EndComp
@@ -538,7 +538,7 @@ F 3 "" H 9100 2200 50  0000 C CNN
 F 4 "CP-1401-ND" H 9100 2200 60  0001 C CNN "DigiKeyPN"
 F 5 "Value" H 9100 2200 60  0001 C CNN "Voltage"
 F 6 "Value" H 9100 2200 60  0001 C CNN "ConradPN"
-F 7 "Value" H 9100 2200 60  0001 C CNN "Fieldname"
+F 7 "http://www.digikey.de/product-detail/de/AS07108PO-R/668-1371-ND/1745572" H 9100 2200 60  0001 C CNN "Link"
 	1    9100 2200
 	1    0    0    -1  
 $EndComp
