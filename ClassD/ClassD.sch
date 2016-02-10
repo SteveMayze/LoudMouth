@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C8
+L C C12
 U 1 1 56B5D94C
 P 4700 3650
-F 0 "C8" V 4750 3700 50  0000 L CNN
+F 0 "C12" V 4750 3700 50  0000 L CNN
 F 1 "0.1 μF" V 4650 3350 50  0000 L CNN
 F 2 "" H 4738 3500 50  0000 C CNN
 F 3 "" H 4700 3650 50  0000 C CNN
@@ -60,10 +60,10 @@ F 7 "Value" H 4700 3650 60  0001 C CNN "Fieldname"
 	0    1    1    0   
 $EndComp
 $Comp
-L TPA2008D2 U1
+L TPA2008D2 U2
 U 1 1 56B5ECDC
 P 5550 4150
-F 0 "U1" H 5950 3050 60  0000 C CNN
+F 0 "U2" H 5950 3050 60  0000 C CNN
 F 1 "TPA2008D2" V 5500 4150 60  0000 C CNN
 F 2 "" H 5500 4300 60  0000 C CNN
 F 3 "" H 5500 4300 60  0000 C CNN
@@ -75,10 +75,10 @@ F 7 "Value" H 5550 4150 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C13
 U 1 1 56B5EEF7
 P 4300 3850
-F 0 "C6" V 4350 3900 50  0000 L CNN
+F 0 "C13" V 4350 3900 50  0000 L CNN
 F 1 "0.1 μF" V 4250 3550 50  0000 L CNN
 F 2 "" H 4338 3700 50  0000 C CNN
 F 3 "" H 4300 3850 50  0000 C CNN
@@ -90,10 +90,10 @@ F 7 "Value" H 4300 3850 60  0001 C CNN "Fieldname"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C9
+L C C14
 U 1 1 56B5EF1A
 P 4700 4050
-F 0 "C9" V 4750 4100 50  0000 L CNN
+F 0 "C14" V 4750 4100 50  0000 L CNN
 F 1 "0.1 μF" V 4650 3750 50  0000 L CNN
 F 2 "" H 4738 3900 50  0000 C CNN
 F 3 "" H 4700 4050 50  0000 C CNN
@@ -105,10 +105,10 @@ F 7 "Value" H 4700 4050 60  0001 C CNN "Fieldname"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C7
+L C C15
 U 1 1 56B5EF3C
 P 4300 4250
-F 0 "C7" V 4350 4350 50  0000 L CNN
+F 0 "C15" V 4350 4350 50  0000 L CNN
 F 1 "0.1 μF" V 4250 3950 50  0000 L CNN
 F 2 "" H 4338 4100 50  0000 C CNN
 F 3 "" H 4300 4250 50  0000 C CNN
@@ -131,10 +131,10 @@ NoConn ~ 6150 4450
 Text Label 2300 2450 0    60   ~ 0
 VDD
 $Comp
-L GND #PWR4
+L GND #PWR8
 U 1 1 56B5F2B5
 P 5850 5650
-F 0 "#PWR4" H 5850 5400 50  0001 C CNN
+F 0 "#PWR8" H 5850 5400 50  0001 C CNN
 F 1 "GND" H 5850 5500 50  0000 C CNN
 F 2 "" H 5850 5650 50  0000 C CNN
 F 3 "" H 5850 5650 50  0000 C CNN
@@ -142,10 +142,10 @@ F 3 "" H 5850 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R R3
 U 1 1 56B5F3A2
 P 4700 5150
-F 0 "R1" V 4780 5150 50  0000 C CNN
+F 0 "R3" V 4780 5150 50  0000 C CNN
 F 1 "120 kΩ" V 4600 5150 50  0000 C CNN
 F 2 "" V 4630 5150 50  0000 C CNN
 F 3 "" H 4700 5150 50  0000 C CNN
@@ -153,10 +153,10 @@ F 3 "" H 4700 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C C17
 U 1 1 56B5F46C
 P 4250 5100
-F 0 "C5" H 4300 5200 50  0000 L CNN
+F 0 "C17" H 4300 5200 50  0000 L CNN
 F 1 "220 pF" H 3950 5000 50  0000 L CNN
 F 2 "" H 4288 4950 50  0000 C CNN
 F 3 "" H 4250 5100 50  0000 C CNN
@@ -187,10 +187,10 @@ LOUT+
 Text Label 8550 4050 2    60   ~ 0
 LOUT-
 $Comp
-L C C10
+L C C18
 U 1 1 56B5FCBA
 P 6350 5100
-F 0 "C10" H 6400 5000 50  0000 L CNN
+F 0 "C18" H 6400 5000 50  0000 L CNN
 F 1 "1 μF" H 6150 5200 50  0000 L CNN
 F 2 "" H 6388 4950 50  0000 C CNN
 F 3 "" H 6350 5100 50  0000 C CNN
@@ -202,10 +202,10 @@ F 7 "Value" H 6350 5100 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C1
+L C C5
 U 1 1 56B600E8
 P 2650 2700
-F 0 "C1" H 2700 2800 50  0000 L CNN
+F 0 "C5" H 2700 2800 50  0000 L CNN
 F 1 "1 μF" H 2450 2600 50  0000 L CNN
 F 2 "" H 2688 2550 50  0000 C CNN
 F 3 "" H 2650 2700 50  0000 C CNN
@@ -217,10 +217,10 @@ F 7 "Value" H 2650 2700 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR4
 U 1 1 56B607D9
 P 2650 3200
-F 0 "#PWR3" H 2650 2950 50  0001 C CNN
+F 0 "#PWR4" H 2650 2950 50  0001 C CNN
 F 1 "GND" H 2650 3050 50  0000 C CNN
 F 2 "" H 2650 3200 50  0000 C CNN
 F 3 "" H 2650 3200 50  0000 C CNN
@@ -228,10 +228,10 @@ F 3 "" H 2650 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR7
 U 1 1 56B60A69
 P 6350 5550
-F 0 "#PWR5" H 6350 5300 50  0001 C CNN
+F 0 "#PWR7" H 6350 5300 50  0001 C CNN
 F 1 "GND" H 6350 5400 50  0000 C CNN
 F 2 "" H 6350 5550 50  0000 C CNN
 F 3 "" H 6350 5550 50  0000 C CNN
@@ -239,10 +239,10 @@ F 3 "" H 6350 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C C7
 U 1 1 56B60FFE
 P 3200 2700
-F 0 "C3" H 3250 2800 50  0000 L CNN
+F 0 "C7" H 3250 2800 50  0000 L CNN
 F 1 "1 μF" H 3000 2600 50  0000 L CNN
 F 2 "" H 3238 2550 50  0000 C CNN
 F 3 "" H 3200 2700 50  0000 C CNN
@@ -254,10 +254,10 @@ F 7 "Value" H 3200 2700 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C C8
 U 1 1 56B61005
 P 3500 2700
-F 0 "C4" H 3550 2800 50  0000 L CNN
+F 0 "C8" H 3550 2800 50  0000 L CNN
 F 1 "1 μF" H 3300 2600 50  0000 L CNN
 F 2 "" H 3538 2550 50  0000 C CNN
 F 3 "" H 3500 2700 50  0000 C CNN
@@ -288,10 +288,10 @@ VDD1
 Text Label 7650 4850 2    60   ~ 0
 VDD1
 $Comp
-L C C11
+L C C19
 U 1 1 56B61EF5
 P 7350 5100
-F 0 "C11" H 7400 5000 50  0000 L CNN
+F 0 "C19" H 7400 5000 50  0000 L CNN
 F 1 "NO-POP" H 7150 5200 50  0000 L CNN
 F 2 "" H 7388 4950 50  0000 C CNN
 F 3 "" H 7350 5100 50  0000 C CNN
@@ -304,10 +304,10 @@ VOLUME
 Text Label 2500 4850 2    60   ~ 0
 ~SHUTDOWN
 $Comp
-L GND #PWR1
+L GND #PWR9
 U 1 1 56B6395C
 P 2000 6000
-F 0 "#PWR1" H 2000 5750 50  0001 C CNN
+F 0 "#PWR9" H 2000 5750 50  0001 C CNN
 F 1 "GND" H 2000 5850 50  0000 C CNN
 F 2 "" H 2000 6000 50  0000 C CNN
 F 3 "" H 2000 6000 50  0000 C CNN
@@ -315,7 +315,7 @@ F 3 "" H 2000 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3650 3450 0    60   ~ 0
-SHUTDOWN
+~SHUTDOWN
 Text Notes 2700 7300 0    60   ~ 0
 A star point should be used for power, where the supply voltage for VDD, PVDD, \nand the volume circuitry can be taken. This point is typically at the bulk decoupling \ncapacitor. The trace connecting the star point to a potentiometer or a DAC should \nbe short. The trace connecting the potentiometer or DAC to the VOLUME pin \nshould be kept as short and straight as possible.\n\nAs with the VDD, a star ground should likewise be used. There should exist on the \nboard a point where AGND and PGND converge. This should be the only place \nwhere the two grounds are connected. The ground used for the volume control \nshould be AGND. If a potentiometer is to be used to control the volume of the \ndevice, it should be connected to AGND. A DAC that has a ground reference \nshould have a short trace to AGND from its ground reference input.\n
 $Comp
@@ -379,10 +379,10 @@ F 7 "Value" H 7150 4050 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L C C3
 U 1 1 56B66BA9
 P 7400 2100
-F 0 "C14" H 7450 2000 50  0000 L CNN
+F 0 "C3" H 7450 2000 50  0000 L CNN
 F 1 "470 nF" H 7100 2200 50  0000 L CNN
 F 2 "" H 7438 1950 50  0000 C CNN
 F 3 "" H 7400 2100 50  0000 C CNN
@@ -394,10 +394,10 @@ F 7 "Value" H 7400 2100 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C16
+L C C4
 U 1 1 56B66DA2
 P 7800 2100
-F 0 "C16" H 7850 2000 50  0000 L CNN
+F 0 "C4" H 7850 2000 50  0000 L CNN
 F 1 "0.1 μF" H 7500 2200 50  0000 L CNN
 F 2 "" H 7838 1950 50  0000 C CNN
 F 3 "" H 7800 2100 50  0000 C CNN
@@ -409,10 +409,10 @@ F 7 "Value" H 7800 2100 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR2
 U 1 1 56B66F4B
 P 7800 2300
-F 0 "#PWR6" H 7800 2050 50  0001 C CNN
+F 0 "#PWR2" H 7800 2050 50  0001 C CNN
 F 1 "GND" H 7800 2150 50  0000 C CNN
 F 2 "" H 7800 2300 50  0000 C CNN
 F 3 "" H 7800 2300 50  0000 C CNN
@@ -420,10 +420,10 @@ F 3 "" H 7800 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L C C10
 U 1 1 56B67792
 P 7750 3600
-F 0 "C15" H 7800 3500 50  0000 L CNN
+F 0 "C10" H 7800 3500 50  0000 L CNN
 F 1 "470 nF" H 7450 3700 50  0000 L CNN
 F 2 "" H 7788 3450 50  0000 C CNN
 F 3 "" H 7750 3600 50  0000 C CNN
@@ -435,10 +435,10 @@ F 7 "Value" H 7750 3600 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C18
+L C C11
 U 1 1 56B67799
 P 8150 3600
-F 0 "C18" H 8200 3500 50  0000 L CNN
+F 0 "C11" H 8200 3500 50  0000 L CNN
 F 1 "0.1 μF" H 7850 3700 50  0000 L CNN
 F 2 "" H 8188 3450 50  0000 C CNN
 F 3 "" H 8150 3600 50  0000 C CNN
@@ -450,10 +450,10 @@ F 7 "Value" H 8150 3600 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR5
 U 1 1 56B6779F
 P 8150 3800
-F 0 "#PWR8" H 8150 3550 50  0001 C CNN
+F 0 "#PWR5" H 8150 3550 50  0001 C CNN
 F 1 "GND" H 8150 3650 50  0000 C CNN
 F 2 "" H 8150 3800 50  0000 C CNN
 F 3 "" H 8150 3800 50  0000 C CNN
@@ -461,10 +461,10 @@ F 3 "" H 8150 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L C C16
 U 1 1 56B68EBB
 P 8150 4300
-F 0 "C19" H 8200 4200 50  0000 L CNN
+F 0 "C16" H 8200 4200 50  0000 L CNN
 F 1 "0.1 μF" H 7850 4400 50  0000 L CNN
 F 2 "" H 8188 4150 50  0000 C CNN
 F 3 "" H 8150 4300 50  0000 C CNN
@@ -476,10 +476,10 @@ F 7 "Value" H 8150 4300 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR6
 U 1 1 56B68F55
 P 8150 4550
-F 0 "#PWR9" H 8150 4300 50  0001 C CNN
+F 0 "#PWR6" H 8150 4300 50  0001 C CNN
 F 1 "GND" H 8150 4400 50  0000 C CNN
 F 2 "" H 8150 4550 50  0000 C CNN
 F 3 "" H 8150 4550 50  0000 C CNN
@@ -487,10 +487,10 @@ F 3 "" H 8150 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L C C9
 U 1 1 56B69221
 P 7800 2750
-F 0 "C17" H 7850 2650 50  0000 L CNN
+F 0 "C9" H 7850 2650 50  0000 L CNN
 F 1 "0.1 μF" H 7500 2850 50  0000 L CNN
 F 2 "" H 7838 2600 50  0000 C CNN
 F 3 "" H 7800 2750 50  0000 C CNN
@@ -502,10 +502,10 @@ F 7 "Value" H 7800 2750 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR7
+L GND #PWR3
 U 1 1 56B692A2
 P 7800 3000
-F 0 "#PWR7" H 7800 2750 50  0001 C CNN
+F 0 "#PWR3" H 7800 2750 50  0001 C CNN
 F 1 "GND" H 7800 2850 50  0000 C CNN
 F 2 "" H 7800 3000 50  0000 C CNN
 F 3 "" H 7800 3000 50  0000 C CNN
@@ -520,10 +520,10 @@ F 0 "SP2" H 9000 3950 50  0000 C CNN
 F 1 "8 Ω" H 9000 3450 50  0000 C CNN
 F 2 "" H 9100 3700 50  0000 C CNN
 F 3 "" H 9100 3700 50  0000 C CNN
-F 4 "CP-1402-ND" H 9100 3700 60  0001 C CNN "DigiKeyPN"
+F 4 "GF0771-ND" H 9100 3700 60  0001 C CNN "DigiKeyPN"
 F 5 "Value" H 9100 3700 60  0001 C CNN "Voltage"
 F 6 "Value" H 9100 3700 60  0001 C CNN "ConradPN"
-F 7 "http://www.digikey.de/product-detail/de/AS07108PO-R/668-1371-ND/1745572" H 9100 3700 60  0001 C CNN "Link"
+F 7 "http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442" H 9100 3700 60  0001 C CNN "Link"
 	1    9100 3700
 	1    0    0    -1  
 $EndComp
@@ -535,10 +535,10 @@ F 0 "SP1" H 9000 2450 50  0000 C CNN
 F 1 "8 Ω" H 9000 1950 50  0000 C CNN
 F 2 "" H 9100 2200 50  0000 C CNN
 F 3 "" H 9100 2200 50  0000 C CNN
-F 4 "CP-1401-ND" H 9100 2200 60  0001 C CNN "DigiKeyPN"
+F 4 "GF0771-ND" H 9100 2200 60  0001 C CNN "DigiKeyPN"
 F 5 "Value" H 9100 2200 60  0001 C CNN "Voltage"
 F 6 "Value" H 9100 2200 60  0001 C CNN "ConradPN"
-F 7 "http://www.digikey.de/product-detail/de/AS07108PO-R/668-1371-ND/1745572" H 9100 2200 60  0001 C CNN "Link"
+F 7 "http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442" H 9100 2200 60  0001 C CNN "Link"
 	1    9100 2200
 	1    0    0    -1  
 $EndComp
@@ -789,10 +789,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 1250 2450 1750
 $Comp
-L GND #PWR2
+L GND #PWR1
 U 1 1 56B7932F
 P 2450 1750
-F 0 "#PWR2" H 2450 1500 50  0001 C CNN
+F 0 "#PWR1" H 2450 1500 50  0001 C CNN
 F 1 "GND" H 2450 1600 50  0000 C CNN
 F 2 "" H 2450 1750 50  0000 C CNN
 F 3 "" H 2450 1750 50  0000 C CNN
@@ -804,10 +804,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 1050 3350 1050
 $Comp
-L C C12
+L C C1
 U 1 1 56B7956C
 P 1850 1300
-F 0 "C12" H 1900 1200 50  0000 L CNN
+F 0 "C1" H 1900 1200 50  0000 L CNN
 F 1 "4.7 μF" H 1550 1400 50  0000 L CNN
 F 2 "" H 1888 1150 50  0000 C CNN
 F 3 "" H 1850 1300 50  0000 C CNN
@@ -819,10 +819,10 @@ F 7 "Value" H 1850 1300 60  0001 C CNN "Fieldname"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C13
+L C C2
 U 1 1 56B79688
 P 3100 1300
-F 0 "C13" H 3150 1200 50  0000 L CNN
+F 0 "C2" H 3150 1200 50  0000 L CNN
 F 1 "4.7 μF" H 2800 1400 50  0000 L CNN
 F 2 "" H 3138 1150 50  0000 C CNN
 F 3 "" H 3100 1300 50  0000 C CNN
@@ -876,10 +876,10 @@ Connection ~ 7400 2550
 Text Notes 7900 5600 0    60   ~ 0
 For higher frequency transients, spikes, or digital hash on the line, \na good low equivalent-series-resistance (ESR) ceramic capacitor, \ntypically 0.1 μF, placed as close as possible to the device V DD \nterminal works best. For filtering lower-frequency noise signals, \na larger aluminum electrolytic capacitor of 10 μF or greater \nplaced near the audio power amplifier is recommended.
 $Comp
-L CP C2
+L CP C6
 U 1 1 56B8FB66
 P 2950 2700
-F 0 "C2" H 2975 2800 50  0000 L CNN
+F 0 "C6" H 2975 2800 50  0000 L CNN
 F 1 "10 μF" H 2700 2600 50  0000 L CNN
 F 2 "" H 2988 2550 50  0000 C CNN
 F 3 "" H 2950 2700 50  0000 C CNN
@@ -891,10 +891,10 @@ F 7 "Value" H 2950 2700 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP1117E50G-13 U2
+L AP1117E50G-13 U1
 U 1 1 56BA2D73
 P 2450 1050
-F 0 "U2" H 2750 900 50  0000 C CNN
+F 0 "U1" H 2750 900 50  0000 C CNN
 F 1 "AP1117E50G-13" H 2550 1200 50  0000 C CNN
 F 2 "" H 2450 1050 50  0000 C CNN
 F 3 "" H 2450 1050 50  0000 C CNN
@@ -905,4 +905,25 @@ F 7 "http://www.digikey.de/product-detail/de/AP1117E50G-13/AP1117E50GDICT-ND/130
 	1    2450 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R1
+U 1 1 56BB8A9C
+P 2550 700
+F 0 "R1" V 2630 700 50  0000 C CNN
+F 1 "NOPOP" V 2550 700 50  0000 C CNN
+F 2 "" V 2480 700 50  0000 C CNN
+F 3 "" H 2550 700 50  0000 C CNN
+	1    2550 700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 700  2000 700 
+Wire Wire Line
+	2000 700  2000 1050
+Connection ~ 2000 1050
+Wire Wire Line
+	2700 700  3000 700 
+Wire Wire Line
+	3000 700  3000 1050
+Connection ~ 3000 1050
 $EndSCHEMATC
