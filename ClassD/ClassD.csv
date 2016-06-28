@@ -1,0 +1,19 @@
+Reference, Quantity, Value, Footprint, Datasheet, DigiKeyPN, Voltage, ConradPN, Link, On-Hand, Fieldname
+"C1, C2, ", 2,4.7 μF, 1206, ,"Value","50 V","Value","Value","Yes","Value"
+"C11, C12, C13, C14, C15, C16, C4, C9, ", 8,0.1 μF, , ,"Value","16 V","Value","Value","Yes","Value"
+"C17, ", 1,220 pF, , ,"1276-1059-1-ND ","50 V","Value","Value","Yes","Value"
+"C18, ", 1,1 μF, , ,"Value","10 V","Value","Value","Yes","Value"
+"C19, ", 1,NO-POP, , ,"Value",,,,,
+"C10, C3, ", 2,470 nF, , ,"Value","50 V","Value","Value","Yes","Value"
+"C5, C7, C8, ", 3,1 μF, 1206, ,"Value","10 V","Value","Value","Yes","Value"
+"C6, ", 1,10 μF, , ,"493-2181-1-ND","16 V","Value","Value","Yes","Value"
+"L1, L2, L3, L4, ", 4,33 μΗ, , ,"490-8418-1-ND","Value","Value","Value","Yes","Value"
+"P1, ", 1,CONN_01X02, , ,"Value","Value","Value","Value","Yes",
+"P2, P3, ", 2,BNC, , ,"CP-1401-ND","Value","Value",,,"Value"
+"R1, ", 1,NOPOP, , 
+"R2, R3, ", 2,120 kΩ, , ,"Value","Value","Value","Value","Yes",
+"RV1, ", 1,50 kΩ, , ,"3362P-503TLF-ND","Value","Value",,,"Value"
+"SP1, SP2, ", 2,8 Ω, , ,"GF0771-ND","Value","Value","http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442",,
+"SW1, ", 1,SPST, , ,"FSM2JSMAA-SI-ND","Value","Value","Value","Yes","Value"
+"U1, ", 1,AP1117E50G-13, , ,"AP1117E50GDICT-ND","Value","Value","http://www.digikey.de/product-detail/de/AP1117E50G-13/AP1117E50GDICT-ND/1301523",,
+"U2, ", 1,TPA2008D2, , ,"296-17158-1-ND","Value","Value",,,"Value"
