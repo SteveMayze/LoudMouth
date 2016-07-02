@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP1117E50G-13
+D MCP1703T-5002E, Fixed 250mA Low Dropout Voltage Regulator, Positive
+K REGULATOR LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf
+$ENDCMP
+#
+$CMP MCP1703T-5002E
+D MCP1703T-5002E, Fixed 250mA Low Dropout Voltage Regulator, Positive
+K REGULATOR LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf
+$ENDCMP
+#
+#End Doc Library

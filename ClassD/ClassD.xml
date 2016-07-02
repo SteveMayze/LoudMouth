@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/vagrant/pcbs/LoudMouth/ClassD/ClassD.sch</source>
+    <date>Tue 28 Jun 2016 07:53:59 PM CEST</date>
+    <tool>Eeschema 4.0.0-2.201512072331+6194~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LoudMouth Class D</title>
+        <company/>
+        <rev>2L.1</rev>
+        <date/>
+        <source>ClassD.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C12">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5D94C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPA2008D2</value>
+      <fields>
+        <field name="DigiKeyPN">296-17158-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="LoudMouth-ClassD" part="TPA2008D2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5ECDC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5EEF7</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5EF1A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5EF3C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>120 kΩ</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5F3A2</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>220 pF</value>
+      <fields>
+        <field name="DigiKeyPN">1276-1059-1-ND </field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5F46C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>120 kΩ</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5F9E3</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">10 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B5FCBA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1 μF</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">10 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B600E8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1 μF</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">10 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B60FFE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1 μF</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">10 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B61005</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>50 kΩ</value>
+      <fields>
+        <field name="DigiKeyPN">3362P-503TLF-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B619ED</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>NO-POP</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B61EF5</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>33 μΗ</value>
+      <fields>
+        <field name="DigiKeyPN">490-8418-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B65332</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>33 μΗ</value>
+      <fields>
+        <field name="DigiKeyPN">490-8418-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B6547A</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>33 μΗ</value>
+      <fields>
+        <field name="DigiKeyPN">490-8418-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B654D0</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>33 μΗ</value>
+      <fields>
+        <field name="DigiKeyPN">490-8418-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B65521</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470 nF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B66BA9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B66DA2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>470 nF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B67792</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B67799</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B68EBB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1 μF</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B69221</tstamp>
+    </comp>
+    <comp ref="SP2">
+      <value>8 Ω</value>
+      <fields>
+        <field name="DigiKeyPN">GF0771-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442</field>
+      </fields>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B6A19B</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>8 Ω</value>
+      <fields>
+        <field name="DigiKeyPN">GF0771-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442</field>
+      </fields>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B6A276</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SPST</value>
+      <fields>
+        <field name="DigiKeyPN">FSM2JSMAA-SI-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B70169</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>BNC</value>
+      <fields>
+        <field name="DigiKeyPN">CP-1401-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="conn" part="BNC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B79EE5</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>BNC</value>
+      <fields>
+        <field name="DigiKeyPN">CP-1402-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="conn" part="BNC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B7A11F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7 μF</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B7956C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7 μF</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B79688</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B7A3E2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10 μF</value>
+      <fields>
+        <field name="DigiKeyPN">493-2181-1-ND</field>
+        <field name="Voltage">16 V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+        <field name="On-Hand">Yes</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B8FB66</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP1117E50G-13</value>
+      <fields>
+        <field name="DigiKeyPN">AP1117E50GDICT-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">http://www.digikey.de/product-detail/de/AP1117E50G-13/AP1117E50GDICT-ND/1301523</field>
+      </fields>
+      <libsource lib="LoudMouth-ClassD" part="AP1117E50G-13"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BA2D73</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>NOPOP</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BB8A9C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LoudMouth-ClassD" part="AP1117E50G-13">
+      <description>MCP1703T-5002E, Fixed 1A Dropout Positive Adjustable or Fixed-Mode Regulator, Positive</description>
+      <docs>http://www.diodes.com/_files/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117E50G-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="TAB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BNC">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LoudMouth-ClassD" part="TPA2008D2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPA2008D2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LINN" type="input"/>
+        <pin num="2" name="LINP" type="input"/>
+        <pin num="3" name="~SHUTDOWN" type="input"/>
+        <pin num="4" name="PVDD" type="input"/>
+        <pin num="5" name="LOUTP" type="input"/>
+        <pin num="6" name="PGND" type="input"/>
+        <pin num="7" name="PGND" type="input"/>
+        <pin num="8" name="LOUTN" type="input"/>
+        <pin num="9" name="PVDD" type="input"/>
+        <pin num="10" name="COSC" type="input"/>
+        <pin num="11" name="ROSC" type="input"/>
+        <pin num="12" name="AGND" type="input"/>
+        <pin num="13" name="VDD" type="input"/>
+        <pin num="14" name="VOLUME" type="input"/>
+        <pin num="15" name="NC" type="input"/>
+        <pin num="16" name="PVDD" type="input"/>
+        <pin num="17" name="ROUTN" type="input"/>
+        <pin num="18" name="PGND" type="input"/>
+        <pin num="19" name="ROUTP" type="input"/>
+        <pin num="21" name="PVDD" type="input"/>
+        <pin num="22" name="BYPASS" type="input"/>
+        <pin num="23" name="RINP" type="input"/>
+        <pin num="24" name="RINN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="LoudMouth-ClassD">
+      <uri>/home/vagrant/pcbs/LoudMouth/ClassD/lib/LoudMouth-ClassD.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VDD">
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="2" name="/~SHUTDOWN">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad1)">
+      <node ref="U2" pin="11"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="6" name="/VIN">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C17" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C8" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="8" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="9" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="10" name="/LOUT-">
+      <node ref="SP2" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="11" name="/LOUT+">
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="SP2" pin="1"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="12" name="/ROUT-">
+      <node ref="C3" pin="1"/>
+      <node ref="SP1" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="13" name="/ROUT+">
+      <node ref="L1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SP1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="15" name="Net-(C12-Pad1)">
+      <node ref="U2" pin="23"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="16" name="Net-(L2-Pad1)">
+      <node ref="U2" pin="17"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="18" name="Net-(C13-Pad1)">
+      <node ref="U2" pin="24"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C15-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="21" name="/RIN+">
+      <node ref="C12" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="22" name="/LIN-">
+      <node ref="P3" pin="2"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="23" name="/LIN+">
+      <node ref="P3" pin="1"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="24" name="/RIN-">
+      <node ref="P2" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="25" name="/VOLUME">
+      <node ref="RV1" pin="2"/>
+      <node ref="U2" pin="14"/>
+    </net>
+  </nets>
+</export>
