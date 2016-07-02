@@ -1,19 +1,19 @@
 Reference, Quantity, Value, Footprint, Datasheet, DigiKeyPN, Voltage, ConradPN, Link, On-Hand, Fieldname
-"C1, C2, ", 2,4.7 μF, 1206, ,"Value","50 V","Value","Value","Yes","Value"
-"C11, C12, C13, C14, C15, C16, C4, C9, ", 8,0.1 μF, , ,"Value","16 V","Value","Value","Yes","Value"
-"C17, ", 1,220 pF, , ,"1276-1059-1-ND ","50 V","Value","Value","Yes","Value"
-"C18, ", 1,1 μF, , ,"Value","10 V","Value","Value","Yes","Value"
-"C19, ", 1,NO-POP, , ,"Value",,,,,
-"C10, C3, ", 2,470 nF, , ,"Value","50 V","Value","Value","Yes","Value"
-"C5, C7, C8, ", 3,1 μF, 1206, ,"Value","10 V","Value","Value","Yes","Value"
-"C6, ", 1,10 μF, , ,"493-2181-1-ND","16 V","Value","Value","Yes","Value"
-"L1, L2, L3, L4, ", 4,33 μΗ, , ,"490-8418-1-ND","Value","Value","Value","Yes","Value"
-"P1, ", 1,CONN_01X02, , ,"Value","Value","Value","Value","Yes",
-"P2, P3, ", 2,BNC, , ,"CP-1401-ND","Value","Value",,,"Value"
-"R1, ", 1,NOPOP, , 
-"R2, R3, ", 2,120 kΩ, , ,"Value","Value","Value","Value","Yes",
-"RV1, ", 1,50 kΩ, , ,"3362P-503TLF-ND","Value","Value",,,"Value"
-"SP1, SP2, ", 2,8 Ω, , ,"GF0771-ND","Value","Value","http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442",,
-"SW1, ", 1,SPST, , ,"FSM2JSMAA-SI-ND","Value","Value","Value","Yes","Value"
+"C1, C2, ", 2,4.7 μF, Capacitors_SMD:C_1206, ,"Value","50 V","Value","Value","Yes","Value"
+"C11, C12, C13, C14, C15, C16, C4, C9, ", 8,0.1 μF, Capacitors_SMD:C_0805, ,"Value","16 V","Value","Value","Yes","Value"
+"C17, ", 1,220 pF, Capacitors_SMD:C_0805, ,"1276-1059-1-ND ","50 V","Value","Value","Yes","Value"
+"C18, ", 1,1 μF, Capacitors_SMD:C_0805, ,"Value","10 V","Value","Value","Yes","Value"
+"C19, ", 1,NO-POP, Capacitors_SMD:C_0805, ,"Value","Value","Value","Value","Yes",
+"C10, C3, ", 2,470 nF, Capacitors_SMD:C_0805, ,"Value","50 V","Value","Value","Yes","Value"
+"C5, C7, C8, ", 3,1 μF, Capacitors_SMD:C_1206, ,"Value","10 V","Value","Value","Yes","Value"
+"C6, ", 1,10 μF, Capacitors_SMD:c_elec_4x5.3, ,"493-2181-1-ND","16 V","Value","Value","Yes","Value"
+"J1, J2, ", 2,RCJ-01X, LoudMouth-ClassD:RCJ-01X, ,"CP-1401-ND","Value","Value","Value","No",
+"L1, L2, L3, L4, ", 4,33 μΗ, LoudMouth-ClassD:SRN3051, ,"490-8418-1-ND","Value","Value","Value","Yes","Value"
+"P1, ", 1,CONN_01X02, Pin_Headers:Pin_Header_Straight_1x02, ,"Value","Value","Value","Value","Yes",
+"R1, ", 1,NOPOP, Resistors_SMD:R_0805, ,"Value","Value","Value","Value","No",
+"R2, R3, ", 2,120 kΩ, Resistors_SMD:R_0805, ,"Value","Value","Value","Value","Yes",
+"RV1, ", 1,50 kΩ, , ,"3362P-503TLF-ND","Value","Value","Value","No","Value"
+"SP1, SP2, ", 2,8 Ω, Pin_Headers:Pin_Header_Straight_1x02, ,"GF0771-ND","Value","Value","http://www.digikey.de/product-detail/de/GF0771/GF0771-ND/304442","Yes",
+"SW1, ", 1,FSM2JSMAA, LoudMouth-ClassD:FSM2JSMAA, www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English,"Value","Value","Value","https://www.digikey.de/product-detail/de/te-connectivity-alcoswitch-switches/FSM2JSMAATR/450-1792-2-ND/1201469","Yes",
 "U1, ", 1,AP1117E50G-13, , ,"AP1117E50GDICT-ND","Value","Value","http://www.digikey.de/product-detail/de/AP1117E50G-13/AP1117E50GDICT-ND/1301523",,
-"U2, ", 1,TPA2008D2, , ,"296-17158-1-ND","Value","Value",,,"Value"
+"U2, ", 1,TPA2008D2, LoudMouth-ClassD:24-TSSOP-PowerPad, http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001071052-da-01-en-IC_AMP_AUDIO_TPA2008D2PWPR_TSSOP_24_TID.pdf,"296-17158-1-ND","Value","1071052 - 62","https://www.conrad.de/de/linear-ic-verstaerker-audio-texas-instruments-tpa2008d2pwpr-2-kanal-stereo-klasse-d-htssop-24-1071052.html","No","Value"
