@@ -1002,7 +1002,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 5200 4950 5200
 Text Label 3250 5200 0    60   ~ 0
-LOUTP
+VDD
 Text Label 6200 3850 0    60   ~ 0
 LOUTP
 Wire Wire Line
@@ -1078,4 +1078,7 @@ Connection ~ 4700 6450
 Wire Wire Line
 	5250 6050 5250 6450
 Connection ~ 5250 6450
+Wire Wire Line
+	5550 6050 5550 6450
+Connection ~ 5550 6450
 $EndSCHEMATC
