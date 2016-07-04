@@ -3,7 +3,7 @@
   (general
     (links 95)
     (no_connects 0)
-    (area 92.888999 82.474999 163.270001 127.964001)
+    (area 87.823099 73.690099 163.270001 127.964001)
     (thickness 1.6)
     (drawings 6)
     (tracks 192)
@@ -1306,12 +1306,12 @@
     )
   )
 
-  (module LoudMouth-ClassD:LoudMouth_Logo_10 (layer F.Cu) (tedit 0) (tstamp 577A0595)
-    (at 108.712 105.156)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+  (module LoudMouth-ClassD:LoudMouth_Logo_10 (layer F.Cu) (tedit 577A3DB2) (tstamp 577A0595)
+    (at 108.712 103.378)
+    (fp_text reference LOGO1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LoudMouth_10 (at 0.75 0) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_poly (pts (xy 0.800755 -4.287311) (xy 0.960982 -4.203307) (xy 1.123622 -4.069656) (xy 1.393502 -3.748014)
@@ -1576,12 +1576,12 @@
       (xy 1.142267 -3.550115)) (layer F.SilkS) (width 0.01))
   )
 
-  (module LoudMouth-ClassD:KiCad-Logo (layer F.Cu) (tedit 0) (tstamp 577A0A7A)
+  (module LoudMouth-ClassD:KiCad-Logo (layer F.Cu) (tedit 577A3D99) (tstamp 577A0A7A)
     (at 125.476 122.682)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference LOGO2 (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value KiCad (at 0.75 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
     (fp_poly (pts (xy 3.701898 1.159053) (xy 3.700458 1.349921) (xy 3.700334 1.358623) (xy 3.693583 1.82407)
@@ -1788,7 +1788,7 @@
   (gr_text 4.0.1 (at 119.634 126.238) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "Loud Mouth - Class D\nRev 2L_1" (at 114.046 106.172) (layer F.SilkS)
+  (gr_text "Loud Mouth - Class D\nRev 2L_1" (at 112.522 106.172) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)) (justify left))
   )
   (gr_line (start 92.964 127.889) (end 92.964 82.55) (angle 90) (layer Edge.Cuts) (width 0.15))
