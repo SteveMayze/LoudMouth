@@ -139,7 +139,7 @@ LIN+
 Text Label 3650 4250 0    60   ~ 0
 LIN-
 NoConn ~ 6150 5800
-Text Label 3850 2450 0    60   ~ 0
+Text Label 3850 2650 0    60   ~ 0
 VDD
 $Comp
 L R R3
@@ -293,7 +293,7 @@ F 8 "No" H 7350 5850 60  0001 C CNN "On-Hand"
 	1    7350 5850
 	1    0    0    -1  
 $EndComp
-Text Label 8400 5400 2    60   ~ 0
+Text Label 6850 5600 2    60   ~ 0
 VDD
 $Comp
 L C C19
@@ -595,9 +595,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 3650 6150 3650
 Wire Wire Line
-	5250 2450 5250 2950
+	5250 2650 5250 2950
 Wire Wire Line
-	4400 6450 6650 6450
+	6650 6450 4400 6450
 Wire Wire Line
 	4700 6300 4700 6450
 Wire Wire Line
@@ -605,7 +605,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 6250 6650 6550
 Wire Wire Line
-	6650 5400 6650 5950
+	6650 5600 6650 5950
 Wire Wire Line
 	6650 6400 7950 6400
 Connection ~ 6650 6400
@@ -620,7 +620,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3450 4950 3450
 Wire Wire Line
-	4350 2450 4350 2850
+	4350 2650 4350 2850
 Wire Wire Line
 	4350 3150 4350 3450
 Connection ~ 4350 3450
@@ -960,8 +960,6 @@ Wire Wire Line
 Text Label 5250 6850 3    60   ~ 0
 AGND
 Wire Wire Line
-	8400 5400 6650 5400
-Wire Wire Line
 	7100 5850 6650 5850
 Connection ~ 6650 5850
 Wire Wire Line
@@ -1049,9 +1047,9 @@ Connection ~ 4650 4750
 Wire Wire Line
 	7650 4550 7300 4550
 Wire Wire Line
-	6150 5250 6350 5250
+	6350 5250 6150 5250
 Wire Wire Line
-	6350 5250 6350 5150
+	6350 5150 6350 5350
 Wire Wire Line
 	6350 5150 6150 5150
 Connection ~ 6350 5200
@@ -1063,9 +1061,9 @@ Wire Wire Line
 Wire Wire Line
 	6550 5200 6350 5200
 Wire Wire Line
-	6150 5050 6550 5050
+	6550 5050 6150 5050
 Wire Wire Line
-	6550 5050 6550 4750
+	6550 4750 6550 5050
 Connection ~ 6550 4750
 Wire Wire Line
 	6900 4900 6900 4850
@@ -1073,8 +1071,8 @@ Wire Wire Line
 	6900 4850 6550 4850
 Connection ~ 6550 4850
 Wire Wire Line
-	3850 2450 5250 2450
-Connection ~ 4350 2450
+	3850 2650 5250 2650
+Connection ~ 4350 2650
 Connection ~ 4700 6450
 Wire Wire Line
 	5250 6050 5250 6450
@@ -1082,4 +1080,19 @@ Connection ~ 5250 6450
 Wire Wire Line
 	5550 6050 5550 6450
 Connection ~ 5550 6450
+Connection ~ 6350 5250
+Text Label 7400 5350 2    60   ~ 0
+VDD
+Text Label 6200 4050 0    60   ~ 0
+LOUTN
+Text Label 6200 3450 0    60   ~ 0
+ROUTP
+Text Label 6200 3650 0    60   ~ 0
+ROUTN
+Text Label 6250 4550 0    60   ~ 0
+BYPASS
+Wire Wire Line
+	6650 5600 6850 5600
+Wire Wire Line
+	6350 5350 7400 5350
 $EndSCHEMATC
