@@ -957,8 +957,6 @@ Wire Wire Line
 	3800 1550 3800 1650
 Wire Wire Line
 	3800 1950 3800 2050
-Text Label 5250 6850 3    60   ~ 0
-AGND
 Wire Wire Line
 	7100 5850 6650 5850
 Connection ~ 6650 5850
@@ -1095,4 +1093,6 @@ Wire Wire Line
 	6650 5600 6850 5600
 Wire Wire Line
 	6350 5350 7400 5350
+Text Label 5250 6300 1    60   ~ 0
+AGND
 $EndSCHEMATC
