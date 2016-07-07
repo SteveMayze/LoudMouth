@@ -3,7 +3,7 @@
   (general
     (links 320)
     (no_connects 0)
-    (area 98.476999 82.474999 163.270001 127.964001)
+    (area 93.284099 73.690099 167.422163 131.4834)
     (thickness 1.6)
     (drawings 15)
     (tracks 213)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -2924,13 +2924,13 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5777FF22) (tstamp 5777C901)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 577E7841) (tstamp 5777C901)
     (at 153.543 88.773 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B66BA9)
     (attr smd)
-    (fp_text reference C3 (at -2.667 -0.127 180) (layer F.SilkS)
+    (fp_text reference C3 (at 2.413 0 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_text value "470 nF" (at 0 2.1 90) (layer F.Fab)
