@@ -694,8 +694,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3800 8800 3800
 Wire Wire Line
-	2600 1250 2600 1500
-Wire Wire Line
 	2450 1250 2450 1750
 $Comp
 L GND #PWR07
@@ -762,7 +760,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 1600 2450 1600
 Connection ~ 2450 1600
-Connection ~ 2600 1500
 Text Label 4000 1050 2    60   ~ 0
 VDD
 Text Label 1550 1050 0    60   ~ 0
@@ -808,7 +805,7 @@ F 7 "Value" H 4150 4800 60  0001 C CNN "Link"
 F 8 "Yes" H 4150 4800 60  0001 C CNN "On-Hand"
 F 9 "Value" H 4150 4800 60  0001 C CNN "Fieldname"
 	1    4150 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L AP1117E50G-13 U1
@@ -1095,4 +1092,11 @@ Wire Wire Line
 	6350 5350 7400 5350
 Text Label 5250 6300 1    60   ~ 0
 AGND
+Wire Wire Line
+	2600 1250 2600 1350
+Wire Wire Line
+	2600 1350 2950 1350
+Wire Wire Line
+	2950 1350 2950 1050
+Connection ~ 2950 1050
 $EndSCHEMATC
